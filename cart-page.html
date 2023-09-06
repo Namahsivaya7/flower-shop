@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="root2"></div>
+    <script src="js/scripts.js"></script>
+    <script src="js/items.js"></script>
+
+    <script>
+        // let cart = [];
+        // (() => {
+        //     const serializedCart = localStorage.getItem('cart') ?? "[]";
+        //     cart = JSON.parse(serializedCart);
+        // })();
+
+        // function addToCart(product) {
+        //     cart.push({
+        //         ...product,
+        //         quantity: counter
+        //     });
+
+        //     console.log({ cart });
+
+        //     localStorage.setItem('cart', JSON.stringify(cart));
+        // }
+
+        function onLoad(event) {
+            createCart();
+        }
+        onLoad();
+    </script>
+
+</body>
+
+</html>
